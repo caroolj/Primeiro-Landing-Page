@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Teste</title>
+    <link rel="stylesheet" href="tela.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Minha Empresa</div>
+                <ul class="nav-links">
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#signup">Cadastro</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h1>Transforme seu Negócio Agora</h1>
+                <p>Utilize nossas soluções inovadoras para impulsionar seu crescimento.</p>
+                <button onclick="scrollToForm()">Cadastre-se Agora</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Benefícios Incríveis para Você</h2>
+            <div class="benefit-items">
+                <div class="benefit-item">
+                    <h3>Eficiência</h3>
+                    <p>Automatize tarefas e economize tempo para focar no que realmente importa.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Personalização</h3>
+                    <p>Soluções feitas sob medida para atender às necessidades do seu negócio.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Suporte 24/7</h3>
+                    <p>Nossa equipe está sempre disponível para ajudar você em qualquer situação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="signup-form">
+        <div class="container">
+            <h2>Cadastre-se e Comece Hoje Mesmo!</h2>
+            <form id="form">
+                <label for="name">Nome:</label>
+                <input type="name" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="qualquer">numero:</label>
+                <input type="number" id="qualquer" name="qualquer" required>
+                
+                <button type="submit" class="botao" href="erro.html">Cadastre-se</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

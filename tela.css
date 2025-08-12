@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#fff; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #007bff, #00bfff);
+    color: #fff;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #007bff;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background: #007bff;
+}
+
+.benefits {
+    padding: 50px 0;
+}
+
+.benefits h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.benefit-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    flex: 1 1 30%;
+    background:#fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup-form {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.signup-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.signup-form form {
+    display: inline-block;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    padding: 15px 30px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.signup-form button:hover {
+    background: #007bff;
+}
+
+.botao{
+    padding: 15px 30px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
